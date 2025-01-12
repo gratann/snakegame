@@ -16,7 +16,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
-public class Board extends JPanel implements ActionListener {
+public class Mysnakegame extends JPanel implements ActionListener {
 
     private final int B_WIDTH = 300;
     private final int B_HEIGHT = 300;
@@ -43,12 +43,12 @@ public class Board extends JPanel implements ActionListener {
     private Image apple;
     private Image head;
 
-    public Board() {
+    public Mysnakegame() {
         
-        initBoard();
+        initMysnakegame();
     }
     
-    private void initBoard() {
+    private void initMysnakegame() {
 
         addKeyListener(new TAdapter());
         setBackground(Color.black);
